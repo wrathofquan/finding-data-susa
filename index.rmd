@@ -73,14 +73,22 @@ http://guides.lib.berkeley.edu/all-guides
 ## Mind the 80/20 Rule
 
 > It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data. 
--Dasu and Johnson, 2003
+
+
+-Dasu and Johnson
 
 ##Tidy Data = Happy Data
 
-> “Happy families are all alike; every unhappy family is unhappy in its own way.” –– Leo Tolstoy
+> “Happy families are all alike; every unhappy family is unhappy in its own way.” 
 
 
-> “Tidy datasets are all alike, but every messy dataset is messy in its own way.” –– Hadley Wickham
+– Leo Tolstoy
+
+
+> “Tidy datasets are all alike, but every messy dataset is messy in its own way.” 
+
+
+– Hadley Wickham
 
 ##Tidy Data = Happy Data
 
