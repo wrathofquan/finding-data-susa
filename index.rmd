@@ -35,13 +35,11 @@ question.
 http://www.lib.berkeley.edu/
 
 
-## Ask Yourself... {data-background="books.jpg"}
+## Ask Yourself...
 
 
 - How feasible or doable is your research question? 
 
-- Can you answer the question with a simple descriptive statistic (like an average, median, percentage, etc)? If so, then your research question might be too narrow.
-  
 - How many observations do you need? 
 
 - Does the answer to your question have too many angles? If so, then your question might be too broad to answer on time.
@@ -50,7 +48,7 @@ http://www.lib.berkeley.edu/
 		
 
 
-## The structure and availability of data
+## Structure and availability of data
 
 
 
@@ -67,14 +65,66 @@ http://www.lib.berkeley.edu/
 
 
 
-##Library Research Guides
+<!--##Library Research Guides
 
 http://guides.lib.berkeley.edu/all-guides
+-->
 
 ## Mind the 80/20 Rule
 
 > It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data. 
 -Dasu and Johnson, 2003
+
+##Tidy Data = Happy Data
+
+> “Happy families are all alike; every unhappy family is unhappy in its own way.” –– Leo Tolstoy
+
+
+> “Tidy datasets are all alike, but every messy dataset is messy in its own way.” –– Hadley Wickham
+
+##Tidy Data = Happy Data
+
+Tidy Data has the following attributes:
+
+Each variable forms a column and contains values
+
+Each observation forms a row
+
+Each type of observational unit forms a table
+
+![](tidy.png)
+
+##Variable Naming
+
+|Good Example   | Bad Example   | Description  |
+|---|---|---|
+|gnp2010   |gnp-2002; gnp#2002    |   |
+|real_int    |real interest rate    |  |
+| score1; gnp2003   | 1st_score; 2003gnp  |    |
+|reg_out; glm1    | REG; glm; ttest   |   |
+| invest; interest  | xxx; yyy; zmdje;   |    |
+|male; asian    | gender; race   | |
+| citizen   | Are_you_a_US_citizen?   |   |
+| income; intUS03   | INCOME; Int_us2003;   |    |
+| 2017-04-20   |April 20, 2017   |   |
+
+##Variable Naming
+
+|Good Example   | Bad Example   | Description  |
+|---|---|---|
+|gnp2010   |gnp-2002; gnp#2002    | avoid special characters  |
+|real_int    |real interest rate    |Use underscore   |
+| score1; gnp2003   | 1st_score; 2003gnp  | Begin with a character   |
+|reg_out; glm1    | REG; glm; ttest   | Avoid reserved words  |
+| invest; interest  | xxx; yyy; zmdje;   |Use meaningful names    |
+|male; asian    | gender; race   | Use a value of dummy   |
+| citizen   | Are_you_a_US_citizen?   | The shorter, the better   |
+| income; intUS03   | INCOME; Int_us2003;   | Use lower cases   |
+| 2017-04-20   |April 20, 2017   | Use common ISO year format  |
+
+## Missing values, Zeros, and Nulls
+
+![](nulls.png)
 
 ##Web Scraping
 http://statbel.fgov.be/en/statistics/figures/economy/indicators/prix_prod_con/
@@ -93,7 +143,6 @@ M=cbind(NAMES[7:15],M)
 names(M)=NAMES[1:6]
 M
 ```
-
 
 ##Text-mining
 
