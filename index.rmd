@@ -38,11 +38,11 @@ http://www.lib.berkeley.edu/
 ## Ask Yourself...
 
 
-- How feasible or doable is your research question? 
+- How feasible or doable is your research question in the time given? 
 
 - How many observations do you need? 
 
-- Does the answer to your question have too many angles? If so, then your question might be too broad to answer on time.
+- Does the answer to your question have too many angles? 
 
 
 		
