@@ -2,7 +2,7 @@
 title: 
 output:
   revealjs::revealjs_presentation:
-    theme: night
+    theme: serif
     transition: fade
     highlight: zenburn
     center: true
@@ -10,9 +10,8 @@ output:
 
 
 
-## Finding Social Science Data for Your Research {data-background="data1.jpg"}
+## Finding Data for Teaching Modules
 
-Josh Quan
 
 UC Berkeley Library 
 
@@ -20,22 +19,21 @@ Fall 2017
 
 
 
-##
-
-> An approximate answer to the right question is worth a
-great deal more than a precise answer to the wrong
-question.
-
--John Tukey
-
 
 
 ## Plan your Research with a Literature Review 
 
 http://www.lib.berkeley.edu/
 
+http://scholar.google.com
 
-## Ask Yourself...
+
+## Plan your Research with a Literature Review 
+
+![](netflix.jpg)
+
+
+## Some First Considerations
 
 
 - How feasible or doable is your research question in the time given? 
@@ -46,8 +44,6 @@ http://www.lib.berkeley.edu/
 
 
 		
-
-
 ## Structure and availability of data
 
 
@@ -77,18 +73,18 @@ http://guides.lib.berkeley.edu/all-guides
 
 -Dasu and Johnson
 
-##Tidy Data = Happy Data
+
+## Tidy Data
 
 > “Happy families are all alike; every unhappy family is unhappy in its own way.” 
-
 
 – Leo Tolstoy
 
 
 > “Tidy datasets are all alike, but every messy dataset is messy in its own way.” 
 
-
 – Hadley Wickham
+
 
 ##Tidy Data = Happy Data
 
@@ -98,51 +94,26 @@ Each variable forms a column and contains values
 
 Each observation forms a row
 
-Each type of observational unit forms a table
-
 ![](tidy.png)
 
-##Variable Naming
 
-|Good Example   | Bad Example   | Description  |
-|---|---|---|
-|gnp2010   |gnp-2002; gnp#2002    |   |
-|real_int    |real interest rate    |  |
-| score1; gnp2003   | 1st_score; 2003gnp  |    |
-|reg_out; glm1    | REG; glm; ttest   |   |
-| invest; interest  | xxx; yyy; zmdje;   |    |
-|male; asian    | gender; race   | |
-| citizen   | Are_you_a_US_citizen?   |   |
-| income; intUS03   | INCOME; Int_us2003;   |    |
-| 2017-04-20   |April 20, 2017   |   |
 
-##Variable Naming
 
-|Good Example   | Bad Example   | Description  |
-|---|---|---|
-|gnp2010   |gnp-2002; gnp#2002    | avoid special characters  |
-|real_int    |real interest rate    |Use underscore   |
-| score1; gnp2003   | 1st_score; 2003gnp  | Begin with a character   |
-|reg_out; glm1    | REG; glm; ttest   | Avoid reserved words  |
-| invest; interest  | xxx; yyy; zmdje;   |Use meaningful names    |
-|male; asian    | gender; race   | Use a value of dummy   |
-| citizen   | Are_you_a_US_citizen?   | The shorter, the better   |
-| income; intUS03   | INCOME; Int_us2003;   | Use lower cases   |
-| 2017-04-20   |April 20, 2017   | Use common ISO year format  |
+## APIs
 
-## Missing values, Zeros, and Nulls
+https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
 
-![](nulls.png)
 
-##Web Scraping
+##Scraping with BeautifulSoup
+
+
+
+##Scraping with R and RVEST
 http://statbel.fgov.be/en/statistics/figures/economy/indicators/prix_prod_con/
-
-```{r, include=FALSE}
-library(rvest)
-```
 
 
 ```{r, warning=FALSE, message=FALSE}
+library(rvest)
 url='http://statbel.fgov.be/en/statistics/figures/economy/indicators/prix_prod_con/'
 TAB=read_html(url)%>%html_nodes('td')%>%html_text()
 NAMES=read_html(url)%>%html_nodes('th')%>%html_text()
@@ -151,22 +122,69 @@ M=cbind(NAMES[7:15],M)
 names(M)=NAMES[1:6]
 M
 ```
+-->
 
-##Text-mining
+## Scraping without code
+
+
+
+## Text-mining
+
+![](textmining_flowchart.png) {width=40% }
+
+
+## Text-mining
 
 http://guides.lib.berkeley.edu/text-mining
 
-##D-Lab, Library Data Lab, Statistics Department
+## Peer Advising at Moffitt
+
+<center>
+![](flyer.PNG){width=40% }
+</center>
+
+## Library Licensed Resources
+
+## Data Repositories for Replication Data
+
+
+## Activity!
+
+Research Question: What is the relationship between availability of reproductive health services and labor force participation for women in Asia?
+
+
+**Searching for Data**
+
+-What search features are available to you? (Keywords, facets, etc.) How well do they work?
+
+-Are the data described in a way that is useful?
+
+-What formats are available? 
+
+
+**Availability**
+
+-How *tidy* is the data? What might you need to do to clean it?
+
+-How accessible is the data? Can you download a .csv? Will you have to scrape? Do you need permission?
+
+
+
+
+## D-Lab, Library Data Lab, Statistics Department
 
 - http://dlab.berkeley.edu/
 - http://www.lib.berkeley.edu/libraries/data-lab
 - https://statistics.berkeley.edu/consulting
 
+## Next Time...
+
+- Evaluating the quality and apporpriateness of your data
+- Cleaning and wrangling
+- Data Management and reproducibility
+
 
 ## Questions?
 
 - email: joshua.quan@berkeley.edu
-
-![](giphy.gif)
-
 
