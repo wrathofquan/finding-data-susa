@@ -134,7 +134,7 @@ M
 
 ## Text-mining
 
-![](textmining_flowchart.png){width=10% }
+![](textmining_flowchart.png){width=70% }
 
 
 ## Text-mining
@@ -158,22 +158,11 @@ http://guides.lib.berkeley.edu/text-mining
 
 Research Question: What is the relationship between availability of reproductive health services and labor force participation for women in Asia?
 
-
-**Searching for Data**
-
--What search features are available to you? (Keywords, facets, etc.) How well do they work?
-
--Are the data described in a way that is useful?
-
--What formats are available? 
-
-
-**Availability**
-
--How *tidy* is the data? What might you need to do to clean it?
-
--How accessible is the data? Can you download a .csv? Will you have to scrape? Do you need permission?
-
+| **Searching**                                                                              | **Availability**                                                                                         |
+|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| What search features are available to you? (Keywords, facets, etc.) How well do they work? | How *tidy* is the data? What might you need to do to clean it?                                           |
+| Are the data described in a way that is useful?                                            | Are the years, unit of analysis, and geography appropriate for the question?                             |
+| What formats are available?                                                                | How accessible is the data? Can you download a .csv? Will you have to scrape? Other permission concerns? |
 
 
 
@@ -190,7 +179,7 @@ Research Question: What is the relationship between availability of reproductive
 - Data Management and reproducibility
 
 
-## Questions?
+## Reaching out
 
 - joshua.quan@berkeley.edu
 - chennesy@berkeley.edu
