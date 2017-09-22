@@ -134,7 +134,7 @@ M
 
 ## Text-mining
 
-![](textmining_flowchart.png) {width=40% }
+![](textmining_flowchart.png) {width=25% }
 
 
 ## Text-mining
