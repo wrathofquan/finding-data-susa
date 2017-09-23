@@ -33,6 +33,13 @@ http://www.lib.berkeley.edu/
 http://scholar.google.com
 
 
+
+## Library Research Guides
+
+http://guides.lib.berkeley.edu/all-guides
+
+
+
 ## Plan your Research with a Literature Review 
 
 
@@ -68,11 +75,10 @@ http://scholar.google.com
 
 
 
-<!--##Library Research Guides
 
-http://guides.lib.berkeley.edu/all-guides
--->
 
+
+<!--
 ## Mind the 80/20 Rule
 
 > It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data. 
@@ -103,7 +109,7 @@ Each observation forms a row
 
 ![](tidy.png)
 
-
+-->
 
 
 ## APIs
