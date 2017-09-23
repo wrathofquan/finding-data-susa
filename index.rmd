@@ -186,7 +186,7 @@ Research Question: What is the relationship between availability of reproductive
 
 ## Next Time...
 
-- Evaluating the quality of your data
+- Evaluating your data
 - Cleaning and wrangling
 - Data Management and reproducibility
 
