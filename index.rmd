@@ -149,11 +149,6 @@ M
 
 http://guides.lib.berkeley.edu/text-mining
 
-## Peer Advising at Moffitt
-
-<center>
-![](flyer.PNG){width=40% }
-</center>
 
 ## Library Licensed Data Aggregators
 
@@ -162,15 +157,15 @@ http://guides.lib.berkeley.edu/text-mining
 ## Data Repositories for Replication Data
 
 
-## Activity!
+## Activity
 
 Research Question: What is the relationship between availability of reproductive health services and labor force participation for women in Asia?
 
 | **Searching**                                                                              | **Availability**                                                                                         |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| What search features are available to you? (Keywords, facets, etc.) How well do they work? | How *tidy* is the data? What might you need to do to clean it?                                           |
-| Are the data described in a way that is useful?                                            | Are the years, unit of analysis, and geography appropriate for the question?                             |
-| What formats are available?                                                                | How accessible is the data? Can you download a .csv? Will you have to scrape? Other permission concerns? |
+| What search features are available to you?  |           How do you access the data?                            |
+| How is the data described?                                             | Are the years, unit of analysis, and geography appropriate for the question?                             |
+| What formats are available?                                                                | Are there additional permissions for access? |
 
 
 
@@ -179,6 +174,15 @@ Research Question: What is the relationship between availability of reproductive
 - http://dlab.berkeley.edu/
 - http://www.lib.berkeley.edu/libraries/data-lab
 - https://statistics.berkeley.edu/consulting
+
+
+
+## Peer Advising at Moffitt
+
+<center>
+![](flyer.PNG){width=40% }
+</center>
+
 
 ## Next Time...
 
