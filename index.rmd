@@ -115,24 +115,31 @@ Each observation forms a row
 
 https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
 
+## Scraping
+
+https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings
+
 
 ##Scraping with BeautifulSoup
 
 
 
 ##Scraping with R and RVEST
-http://statbel.fgov.be/en/statistics/figures/economy/indicators/prix_prod_con/
 
 
 ```{r, warning=FALSE, message=FALSE}
 library(rvest)
-url='http://statbel.fgov.be/en/statistics/figures/economy/indicators/prix_prod_con/'
-TAB=read_html(url)%>%html_nodes('td')%>%html_text()
-NAMES=read_html(url)%>%html_nodes('th')%>%html_text()
-M=data.frame(matrix(TAB,ncol=5,nrow=9,byrow=T))
-M=cbind(NAMES[7:15],M)
-names(M)=NAMES[1:6]
-M
+library(dplyr)
+ufo <- read_html("https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States")
+
+ufo_date <- html_nodes(ufo,'td:nth-child(1)') %>% html_text() 
+ufo_date <- ufo_date[c(-1, -44)] #remove extra elements
+ufo_state <- html_nodes(ufo,'td:nth-child(3)') %>% html_text()
+ufo_name <- html_nodes(ufo,'td:nth-child(4)') %>% html_text()
+ufo_df<-data.frame(date = ufo_date, name = ufo_name, location = ufo_state)
+
+head(ufo_df, n =5)
+
 ```
 -->
 
