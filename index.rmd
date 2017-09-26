@@ -155,6 +155,14 @@ head(ufo_df, n =5)
 ```
 
 
+## Miscellaneous Collections
+
+https://vincentarelbundock.github.io/Rdatasets/datasets.html
+
+https://github.com/caesar0301/awesome-public-datasets
+
+
+
 ## Text-mining
 
 ![](textmining_flowchart.png){width=70% }
@@ -166,11 +174,6 @@ http://guides.lib.berkeley.edu/text-mining
 
 
 
-## Miscellaneous Collections
-
-https://vincentarelbundock.github.io/Rdatasets/datasets.html
-
-https://github.com/caesar0301/awesome-public-datasets
 
 
 ## Activity
