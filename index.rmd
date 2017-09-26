@@ -182,7 +182,7 @@ Task: How has the number of women CEOs changed over time?
 | Data Planet | http://statisticaldatasets.data-planet.com/dataplanet/ |
 | Google      | https://google.com                                             |
 | Kaggle      | https://www.kaggle.com/datasets                        |
-| Figshare     | https://figshare.com/                         |
+| ICPSR     | https://www.icpsr.umich.edu                         |
 
 </small>
 
