@@ -113,7 +113,7 @@ Social Explorer
 
 Dataverse
 
-ICPSR
+Data.gov
 
 
 ## APIs
@@ -191,7 +191,7 @@ Research Question: What is the proportion of women to men in the U.S tech indust
 | Data Planet | http://statisticaldatasets.data-planet.com/dataplanet/ |
 | Google      | https://google.com                                             |
 | Kaggle      | https://www.kaggle.com/datasets                        |
-| ICPSR     | https://www.icpsr.umich.edu                         |
+| Data.gov     | Data.gov                         |
 
 </small>
 
