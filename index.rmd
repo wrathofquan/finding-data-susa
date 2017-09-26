@@ -46,14 +46,6 @@ http://guides.lib.berkeley.edu/all-guides
 ![](netflix.jpg)
 
 
-## Some First Considerations
-
-
-- How feasible or doable is your research question in the time given? 
-
-- How many observations do you need? 
-
-- Does the answer to your question have too many angles? 
 
 
 		
@@ -120,12 +112,11 @@ https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
 https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings
 
 
-##Scraping with BeautifulSoup
+##Scraping with Python and BeautifulSoup
 
 
 
 ##Scraping with R and RVEST
-
 
 ```{r, warning=FALSE, message=FALSE}
 library(rvest)
@@ -141,7 +132,6 @@ ufo_df<-data.frame(date = ufo_date, name = ufo_name, location = ufo_state)
 head(ufo_df, n =5)
 
 ```
--->
 
 ## Scraping without code
 
@@ -159,9 +149,16 @@ http://guides.lib.berkeley.edu/text-mining
 
 ## Library Licensed Data Aggregators
 
+Data Planet
+
+Social Explorer
 
 
 ## Data Repositories for Replication Data
+
+ICPSR
+
+Dataverse
 
 
 ## Activity
@@ -187,7 +184,7 @@ Research Question: What is the relationship between availability of reproductive
 ## Peer Advising at Moffitt
 
 <center>
-![](flyer.PNG){width=40% }
+![](flyer.PNG){width=45% }
 </center>
 
 
