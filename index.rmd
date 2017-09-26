@@ -10,7 +10,7 @@ output:
 
 
 
-## Finding Data for Teaching Modules
+## Finding Data for Teaching Data Science
 
 
 UC Berkeley Library 
@@ -165,6 +165,12 @@ head(ufo_df, n =5)
 http://guides.lib.berkeley.edu/text-mining
 
 
+
+## Miscellaneous Collections
+
+https://vincentarelbundock.github.io/Rdatasets/datasets.html
+
+https://github.com/caesar0301/awesome-public-datasets
 
 
 ## Activity
