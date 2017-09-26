@@ -116,31 +116,6 @@ Figshare
 Dataverse
 
 
-## Activity
-
-Research Question: 
-
-
-| **Searching**                                                                              | **Availability**                                                                                         |
-|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| What search features are available to you?  |           How do you access the data?                            |
-| How is the data described?                                             | What years, geography, unit of analysis, etc. are available to you?                           |
-
-<small>
-                                           
-| Dataverse   | https://dataverse.harvard.edu/                         |
-|-------------|--------------------------------------------------------|
-| Data Planet | http://statisticaldatasets.data-planet.com/dataplanet/ |
-| Google      | https://google.com                                             |
-| Kaggle      | https://www.kaggle.com/datasets                        |
-| Figshare     | https://figshare.com/                         |
-
-</small>
-
-
-
-
-
 ## APIs
 
 https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
@@ -158,6 +133,8 @@ https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings
 ##Scraping with Python 
 
 ![](python.png)
+
+
 
 ##Scraping with R
 
@@ -185,6 +162,32 @@ head(ufo_df, n =5)
 ## Text-mining
 
 http://guides.lib.berkeley.edu/text-mining
+
+
+
+
+## Activity
+
+Task: What is the relationship between educatio
+
+| **Searching**                                                                              | **Availability**                                                                                         |
+|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| What search features are available to you?  |           How do you access the data?                            |
+| How is the data described?                                             | What years, geography, unit of analysis, etc. are available to you?                           |
+
+<small>
+                                           
+| Dataverse   | https://dataverse.harvard.edu/                         |
+|-------------|--------------------------------------------------------|
+| Data Planet | http://statisticaldatasets.data-planet.com/dataplanet/ |
+| Google      | https://google.com                                             |
+| Kaggle      | https://www.kaggle.com/datasets                        |
+| Figshare     | https://figshare.com/                         |
+
+</small>
+
+
+
 
 
 
