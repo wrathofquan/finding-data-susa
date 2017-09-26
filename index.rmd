@@ -178,7 +178,7 @@ http://guides.lib.berkeley.edu/text-mining
 
 ## Activity
 
-Research Question: What is the proportion of immigrant workers in the U.S food industry? Identify a dataset that looks interesting and answer the following questions:
+Research Question: What is the proportion of women to men in the U.S tech industry? Identify a dataset that looks interesting and answer the following questions:
 
 | **Searching**                                                                              | **Availability**                                                                                         |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
