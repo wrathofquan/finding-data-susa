@@ -168,7 +168,7 @@ http://guides.lib.berkeley.edu/text-mining
 
 ## Activity
 
-Task: How has the number of women CEOs changed over time?
+Research Question: How has the number of women CEOs changed over time?
 
 | **Searching**                                                                              | **Availability**                                                                                         |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
