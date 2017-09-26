@@ -60,7 +60,7 @@ http://guides.lib.berkeley.edu/all-guides
 
 ## Providers
 
-| Researchers                                                    	| Government Agencies                                                                                                                                                                       	| NGOs                                                                                                                                     	| Research Organizations                                                                                                   	|
+| Researchers                                                    	| Government Agencies                                                                                                                                                                       	| NGO/IGOs                                                                                                                                     	| Research Organizations                                                                                                   	|
 |----------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|
 | Are there people you know who are doing this kind of research? 	| Think about government agencies - is the request for some official statistics or data that they'd be likely to collect and publish? (Department of Energy, CDC, Census Bureau) 	| Are there councils or interest organizations devoted to the topic that might collect data independently? (World Bank, OECD) 	| Would any specific research organizations be interested in the topic? (Pew, Roper, Gallup, ACLU ) 	|
 
@@ -111,9 +111,10 @@ Social Explorer
 
 ## Data Repositories for Replication Data
 
+Dataverse
+
 Figshare
 
-Dataverse
 
 
 ## APIs
@@ -168,7 +169,7 @@ http://guides.lib.berkeley.edu/text-mining
 
 ## Activity
 
-Research Question: How has the number of women CEOs changed over time?
+Research Question: How has the number of women in government offices changed in the last 20 years?
 
 | **Searching**                                                                              | **Availability**                                                                                         |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
