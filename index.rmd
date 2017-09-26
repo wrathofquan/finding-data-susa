@@ -113,8 +113,7 @@ Social Explorer
 
 Dataverse
 
-Figshare
-
+ICPSR
 
 
 ## APIs
