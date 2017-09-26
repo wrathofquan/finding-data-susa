@@ -55,14 +55,14 @@ http://guides.lib.berkeley.edu/all-guides
 
 | Unit of Analysis                                                                       	| Geography                                                                          	| Time-Period                                                             	| Frequency                                                                                              	|
 |----------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------	|-------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------	|
-| For which level do you want data?  Summary or Micro?  (individuals, counties, nations) 	| Is there a geographic  component to your topic?  (U.S., Sub-Saharan Africa, India) 	| Do you want a data for a  specific time period?  (1980-2000, 1930-1960) 	| How often do you want measures  for your variables?  (every year, every ten years, monthly, quarterly) 	|
+| Aggregated or Microdata?  (counties/nations/households vs. individuals) 	| Is there a geographic  component to your topic?  (U.S., Sub-Saharan Africa, India) 	| Do you want a data for a  specific time period?  (1980-2000, 1930-1960) 	| How often do you want measures  for your variables?  (every year, every ten years, monthly, quarterly) 	|
 
 
-## Data Providers
+## Providers
 
 | Researchers                                                    	| Government Agencies                                                                                                                                                                       	| NGOs                                                                                                                                     	| Research Organizations                                                                                                   	|
 |----------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|
-| Are there people you know who are doing this kind of research? 	| Think about government agencies - is the request for some official statistics or data that they'd be likely to collect and publish? (industry, agriculture, construction, disease, crime) 	| Are there councils or interest organizations devoted to the topic that might collect data independently? (HIV/AIDS, drugs, civil rights) 	| Would any specific research organizations be interested in the topic? (Pew, Roper, Gallup, NORC, NBER, World Bank, OECD) 	|
+| Are there people you know who are doing this kind of research? 	| Think about government agencies - is the request for some official statistics or data that they'd be likely to collect and publish? (Department of Energy, CDC, Census Bureau) 	| Are there councils or interest organizations devoted to the topic that might collect data independently? (World Bank, OECD) 	| Would any specific research organizations be interested in the topic? (Pew, Roper, Gallup, ACLU ) 	|
 
 
 
@@ -102,21 +102,64 @@ Each observation forms a row
 
 -->
 
+## Library Licensed Data Aggregators
+
+Data Planet
+
+Social Explorer
+
+
+## Data Repositories for Replication Data
+
+Figshare
+
+Dataverse
+
+
+## Activity
+
+Research Question: 
+
+
+| **Searching**                                                                              | **Availability**                                                                                         |
+|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| What search features are available to you?  |           How do you access the data?                            |
+| How is the data described?                                             | What years, geography, unit of analysis, etc. are available to you?                           |
+
+<small>
+                                           
+| Dataverse   | https://dataverse.harvard.edu/                         |
+|-------------|--------------------------------------------------------|
+| Data Planet | http://statisticaldatasets.data-planet.com/dataplanet/ |
+| Google      | https://google.com                                             |
+| Kaggle      | https://www.kaggle.com/datasets                        |
+| Figshare     | https://figshare.com/                         |
+
+</small>
+
+
+
+
 
 ## APIs
 
 https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
+
+
+
 
 ## Scraping
 
 https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings
 
 
-##Scraping with Python and BeautifulSoup
 
 
+##Scraping with Python 
 
-##Scraping with R and RVEST
+![](python.png)
+
+##Scraping with R
 
 ```{r, warning=FALSE, message=FALSE}
 library(rvest)
@@ -127,14 +170,11 @@ ufo_date <- html_nodes(ufo,'td:nth-child(1)') %>% html_text()
 ufo_date <- ufo_date[c(-1, -44)] #remove extra elements
 ufo_state <- html_nodes(ufo,'td:nth-child(3)') %>% html_text()
 ufo_name <- html_nodes(ufo,'td:nth-child(4)') %>% html_text()
-ufo_df<-data.frame(date = ufo_date, name = ufo_name, location = ufo_state)
+ufo_df<-data.frame(date = ufo_date, name = ufo_name, state = ufo_state)
 
 head(ufo_df, n =5)
 
 ```
-
-## Scraping without code
-
 
 
 ## Text-mining
@@ -145,31 +185,6 @@ head(ufo_df, n =5)
 ## Text-mining
 
 http://guides.lib.berkeley.edu/text-mining
-
-
-## Library Licensed Data Aggregators
-
-Data Planet
-
-Social Explorer
-
-
-## Data Repositories for Replication Data
-
-ICPSR
-
-Dataverse
-
-
-## Activity
-
-Research Question: What is the relationship between availability of reproductive health services and labor force participation for women in Asia?
-
-| **Searching**                                                                              | **Availability**                                                                                         |
-|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| What search features are available to you?  |           How do you access the data?                            |
-| How is the data described?                                             | Are the years, unit of analysis, and geography appropriate for the question?                             |
-| What formats are available?                                                                | Are there additional permissions for access? |
 
 
 
@@ -186,6 +201,7 @@ Research Question: What is the relationship between availability of reproductive
 <center>
 ![](flyer.PNG){width=45% }
 </center>
+
 
 
 ## Next Time...
