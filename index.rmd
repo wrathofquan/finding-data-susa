@@ -15,8 +15,7 @@ output:
 
 UC Berkeley Library 
 
-Fall 2017
-
+Spring 2018
 
 --------
 
@@ -226,6 +225,5 @@ Research Question: What is the proportion of women to men in the U.S tech indust
 ## Reaching out
 
 - joshua.quan@berkeley.edu
-- chennesy@berkeley.edu
 
 
