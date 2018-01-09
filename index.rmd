@@ -15,7 +15,7 @@ output:
 
 UC Berkeley Library 
 
-Spring 2018
+`r format(Sys.time(), "%B %Y")`
 
 --------
 
@@ -111,6 +111,8 @@ Social Explorer
 ## Data Repositories for Replication Data
 
 Dataverse
+
+ICPSR
 
 Data.gov
 
