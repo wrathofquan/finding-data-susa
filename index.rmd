@@ -34,6 +34,10 @@ Data Planet
 
 Social Explorer
 
+Policy Map
+
+Simply Analytics
+
 
 ## Data Repositories for Replication Data
 
@@ -56,29 +60,10 @@ https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States
 
 
 
-
 ##Scraping with Python 
 
 ![](python.png)
 
-
-
-##Scraping with R
-
-```{r, warning=FALSE, message=FALSE}
-library(rvest)
-library(dplyr)
-ufo <- read_html("https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States")
-
-ufo_date <- html_nodes(ufo,'td:nth-child(1)') %>% html_text() 
-ufo_date <- ufo_date[c(-1, -44)] #remove extra elements
-ufo_state <- html_nodes(ufo,'td:nth-child(3)') %>% html_text()
-ufo_name <- html_nodes(ufo,'td:nth-child(4)') %>% html_text()
-ufo_df<-data.frame(date = ufo_date, name = ufo_name, state = ufo_state)
-
-head(ufo_df, n =5)
-
-```
 
 
 ## Miscellaneous Collections
@@ -88,18 +73,9 @@ https://vincentarelbundock.github.io/Rdatasets/datasets.html
 https://github.com/caesar0301/awesome-public-datasets
 
 
-
-## Text-mining
-
-![](textmining_flowchart.png){width=70% }
-
-
 ## Text-mining
 
 http://guides.lib.berkeley.edu/text-mining
-
-
-
 
 
 
