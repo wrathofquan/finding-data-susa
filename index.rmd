@@ -10,33 +10,102 @@ output:
 
 
 
-## Finding Data 
+## Finding Data for Teaching Data Science
 
-Environmental Design Library
+
+UC Berkeley Library 
 
 `r format(Sys.time(), "%B %Y")`
 
 --------
 
 
-## 
-<center>
-![](envi.jpeg){width=55%} 
-</center>
+
+> "An approximate answer to the right question is worth a great deal more than a precise answer to the wrong question."
+
+-John Tukey
+
+
+
+## Plan your Research with a Literature Review 
+
+http://www.lib.berkeley.edu/
+
+http://scholar.google.com
+
+
+http://guides.lib.berkeley.edu/all-guides
+
+
+
+## Plan your Research with a Literature Review 
+
+
+
+![](netflix.jpg)
 
 
 
 
+		
+## Structure and availability of data
+
+
+
+| Unit of Analysis                                                                       	| Geography                                                                          	| Time-Period                                                             	| Frequency                                                                                              	|
+|----------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------	|-------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------	|
+| Aggregated or Microdata?  (counties/nations/households vs. individuals) 	| Is there a geographic  component to your topic?  (U.S., Sub-Saharan Africa, India) 	| Do you want a data for a  specific time period?  (1980-2000, 1930-1960) 	| How often do you want measures  for your variables?  (every year, every ten years, monthly, quarterly) 	|
+
+
+## Providers
+
+| Researchers                                                    	| Government Agencies                                                                                                                                                                       	| NGO/IGOs                                                                                                                                     	| Research Organizations                                                                                                   	|
+|----------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------	|
+| Are there people you know who are doing this kind of research? 	| Think about government agencies - is the request for some official statistics or data that they'd be likely to collect and publish? (Department of Energy, CDC, Census Bureau) 	| Are there councils or interest organizations devoted to the topic that might collect data independently? (World Bank, OECD) 	| Would any specific research organizations be interested in the topic? (Pew, Roper, Gallup, ACLU ) 	|
+
+
+
+
+
+
+<!--
+## Mind the 80/20 Rule
+
+> It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data. 
+
+
+-Dasu and Johnson
+
+
+## Tidy Data
+
+> “Happy families are all alike; every unhappy family is unhappy in its own way.” 
+
+– Leo Tolstoy
+
+
+> “Tidy datasets are all alike, but every messy dataset is messy in its own way.” 
+
+– Hadley Wickham
+
+
+##Tidy Data = Happy Data
+
+Tidy Data has the following attributes:
+
+Each variable forms a column and contains values
+
+Each observation forms a row
+
+![](tidy.png)
+
+-->
 
 ## Library Licensed Data Aggregators
 
 Data Planet
 
 Social Explorer
-
-Policy Map
-
-Simply Analytics
 
 
 ## Data Repositories for Replication Data
@@ -54,9 +123,11 @@ https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
 
 
 
+
 ## Scraping
 
 https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States
+
 
 
 
@@ -66,6 +137,24 @@ https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States
 
 
 
+##Scraping with R
+
+```{r, warning=FALSE, message=FALSE}
+library(rvest)
+library(dplyr)
+ufo <- read_html("https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States")
+
+ufo_date <- html_nodes(ufo,'td:nth-child(1)') %>% html_text() 
+ufo_date <- ufo_date[c(-1, -44)] #remove extra elements
+ufo_state <- html_nodes(ufo,'td:nth-child(3)') %>% html_text()
+ufo_name <- html_nodes(ufo,'td:nth-child(4)') %>% html_text()
+ufo_df<-data.frame(date = ufo_date, name = ufo_name, state = ufo_state)
+
+head(ufo_df, n =5)
+
+```
+
+
 ## Miscellaneous Collections
 
 https://vincentarelbundock.github.io/Rdatasets/datasets.html
@@ -73,9 +162,42 @@ https://vincentarelbundock.github.io/Rdatasets/datasets.html
 https://github.com/caesar0301/awesome-public-datasets
 
 
+
+## Text-mining
+
+![](textmining_flowchart.png){width=70% }
+
+
 ## Text-mining
 
 http://guides.lib.berkeley.edu/text-mining
+
+
+
+
+
+## Activity
+
+Research Question: What is the proportion of women to men in the U.S tech industry? Identify a dataset that looks interesting and answer the following questions:
+
+| **Searching**                                                                              | **Availability**                                                                                         |
+|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| What search features are available to you?  |           How do you access the data?                            |
+| How is the data described?                                             | What years, geography, unit of analysis, etc. are available to you?                           |
+
+<small>
+                                           
+| Dataverse   | https://dataverse.harvard.edu/                         |
+|-------------|--------------------------------------------------------|
+| Data Planet | http://statisticaldatasets.data-planet.com/dataplanet/ |
+| Google      | https://google.com                                             |
+| Kaggle      | https://www.kaggle.com/datasets                        |
+| Data.gov     | Data.gov                         |
+
+</small>
+
+
+
 
 
 
@@ -93,5 +215,17 @@ http://guides.lib.berkeley.edu/text-mining
 ![](flyer.PNG){width=45% }
 </center>
 
+
+
+## Next Time...
+
+- Evaluating your data
+- Cleaning and wrangling
+- Data Management and reproducibility
+
+
+## Reaching out
+
+- joshua.quan@berkeley.edu
 
 
