@@ -15,7 +15,11 @@ output:
 
 UC Berkeley Library 
 
-`r format(Sys.time(), "%B %Y")`
+_Teaching Data Science Modules/Connector Decal_
+
+Fall 2017
+
+<!-- `r format(Sys.time(), "%B %Y")` -->
 
 --------
 
