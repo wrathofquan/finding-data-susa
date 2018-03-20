@@ -216,7 +216,7 @@ Research Question: What is the proportion of women to men in the U.S tech indust
 ## Peer Advising at Moffitt
 
 <center>
-![](flyer.PNG){width=45% }
+![](datadigitalresearch.PNG){width=45% }
 </center>
 
 
