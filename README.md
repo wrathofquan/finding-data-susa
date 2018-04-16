@@ -1,2 +1,1 @@
-# finding-data-fall17
-General Finding Data Presentation
+Presentation for SUSA- Berkeley
