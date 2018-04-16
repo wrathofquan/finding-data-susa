@@ -46,7 +46,7 @@ http://guides.lib.berkeley.edu/all-guides
 
 
 
-![](netflix.jpg)
+![](images/netflix.jpg)
 
 
 
@@ -141,7 +141,7 @@ https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States
 
 ##Scraping with Python 
 
-![](python.png)
+![](images/python.png)
 
 
 
@@ -173,7 +173,7 @@ https://github.com/caesar0301/awesome-public-datasets
 
 ## Text-mining
 
-![](textmining_flowchart.png){width=70% }
+![](images/textmining_flowchart.png){width=70% }
 
 
 ## Text-mining
@@ -210,12 +210,12 @@ http://guides.lib.berkeley.edu/text-mining
 http://researchdata.berkeley.edu/
 
 
-## Peer Advising at Moffitt
+## Peer Consulting at Moffitt
 
 [Peer Consulting](https://data.berkeley.edu/education/datapeers) in collaboration with Division of Data Sciences
 
 <center>
-![](datadigitalresearch.PNG){width=45% }
+![](images/datadigitalresearch.PNG){width=40% }
 </center>
 
 
