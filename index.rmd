@@ -118,11 +118,10 @@ Each observation forms a row
 
 ## Data Repositories for Replication Data
 
-Dataverse
+[Dataverse](https://dataverse.harvard.edu/)
 
-ICPSR
+[ICPSR](https://www.icpsr.umich.edu/icpsrweb/)
 
-Data.gov
 
 
 ## APIs
@@ -191,7 +190,7 @@ http://guides.lib.berkeley.edu/text-mining
 
 ## Research appointments with Research Librarians
 
--http://www.lib.berkeley.edu/help/research-appointments
+http://www.lib.berkeley.edu/help/research-appointments
 
 
 ## Data Acquisition and Access Program (DAAP)
@@ -215,7 +214,7 @@ http://researchdata.berkeley.edu/
 [Peer Consulting](https://data.berkeley.edu/education/datapeers) in collaboration with Division of Data Sciences
 
 <center>
-![](images/datadigitalresearch.PNG){width=40% }
+![](images/datadigitalresearch.PNG){width=35% }
 </center>
 
 
