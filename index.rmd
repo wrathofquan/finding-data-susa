@@ -223,4 +223,5 @@ http://researchdata.berkeley.edu/
 
 - joshua.quan@berkeley.edu
 
+![kermit](images/kermit.gif)
 
