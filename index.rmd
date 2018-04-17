@@ -2,7 +2,7 @@
 title: 
 output:
   revealjs::revealjs_presentation:
-    theme: black
+    theme: white
     transition: fade
     highlight: zenburn
     center: true
@@ -11,7 +11,7 @@ output:
 
 
 
-## Data Resources and Moffitt Digital Help Services
+## Data Resources and Moffitt Library Services
 
 
 UC Berkeley Library 
@@ -124,6 +124,14 @@ Each observation forms a row
 
 
 
+## Do-it-yourself approaches
+
+
+![hammer](images/hammer.gif)
+
+
+
+
 ## APIs
 
 https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
@@ -133,9 +141,9 @@ https://libraries.mit.edu/scholarly/publishing/apis-for-scholarly-resources/
 
 ## Scraping
 
+<small>
 https://en.wikipedia.org/wiki/UFO_sightings_in_the_United_States
-
-
+</small>
 
 
 ##Scraping with Python 
@@ -188,14 +196,21 @@ http://guides.lib.berkeley.edu/text-mining
 - http://www.lib.berkeley.edu/libraries/data-lab
 - https://statistics.berkeley.edu/consulting
 
-## Research appointments with Research Librarians
+
+
+
+## Meet with a Librarian
 
 http://www.lib.berkeley.edu/help/research-appointments
 
 
+![](images/librarian.gif)
+
+
+
 ## Data Acquisition and Access Program (DAAP)
 
-- Up to $5000 for one-time purchases for research projects
+- Up to $5,000 for one-time purchases for research projects
 
 - Library will host the data and handle the licensing
 
@@ -220,6 +235,7 @@ http://researchdata.berkeley.edu/
 
 
 ## Reaching out
+
 
 - joshua.quan@berkeley.edu
 
