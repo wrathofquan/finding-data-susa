@@ -11,7 +11,7 @@ output:
 
 
 
-## Data Resources and Moffitt Digital Help Services.
+## Data Resources and Moffitt Digital Help Services
 
 
 UC Berkeley Library 
